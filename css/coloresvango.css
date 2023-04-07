@@ -1,0 +1,39 @@
+body{
+    background-image: url("../imagenes/angelcaido.jpg");
+    background-size: cover;
+}
+.containergeneral{
+    display: flex;
+    margin-left: 600px;
+    margin-top: 145px;
+    text-align: center;
+    font-size: 22px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #414141 ;
+}
+.color1{
+    width: 200px;
+    height: 200px;
+    line-height: 150px;
+    background-color:cyan ;
+    background-size: cover;
+    margin-left: 500px;
+
+}
+.color2{
+    width: 200px;
+    height: 200px;
+    line-height: 150px;
+    background-color:rgb(253, 221, 202);
+    background-size: cover;
+    margin-left: 12px;   
+}
+.color3{
+    width: 200px;
+    height: 200px;
+    line-height: 150px;
+    background-color:#aa8236 ;
+    background-size: cover;
+    margin-left: 12px;  
+}
+    

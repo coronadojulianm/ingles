@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+    background-image: url("../imagenes/wally.jpg");
+}
+.box-1{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.fuente-g{
+    font-family: "WaltographUI";
+    font-weight: 300px;
+    font-size: 100px ;
+    color: #85C1E9   ;
+}
+@font-face {
+    font-family: "waltographui";
+    src: url("../fonts/waltographUI.ttf");
+}

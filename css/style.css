@@ -1,0 +1,90 @@
+/*Estilo utilizando elementos html*/
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+body {
+    background-color: #000000;
+    font-family: 'Poiret One', cursive;
+    font-size: 16px;
+} 
+
+/* BARRA DE BUSQUEDA */
+.container-barra-busqueda{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+nav{
+    background-color: #1f0d27;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.625em;
+    margin-left: 2.5em;
+    margin-right: 2.5em;
+    margin-top: 0.063em;
+}
+  
+nav ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+  
+nav li{
+    margin-left: 3.438em;
+}
+  
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.25em;
+    font-weight: bold;
+ }
+ nav a:hover {
+    color: rgb(240, 0, 240);
+    transform: scale(1.4) ;
+    transition: .5s; 
+}
+/* TITULOS Y PARRAFOS */
+h1{
+    /*Propiedades */
+    text-align: center;
+    color: rgb(115, 3, 115);
+    font-weight: bold;
+}
+h2{
+    /*Propiedades */
+    text-align: center;
+    color: rgb(115, 3, 115);
+    font-weight: bold;
+}
+h3{
+    color: #caabd0;
+    font-size: 1.5em;
+    margin-right: 6.25em;
+}
+p{
+    color: #f3f3f3;
+    font-size: 1.5em;
+    text-align: justify;
+}
+/* SECCION SOBRE MI */
+.caja-sobremi{
+    display: flex;
+}
+.caja-foto-perfil{
+    margin-left: 6.25em;
+}
+img{
+    width: 20em;
+    height: 20em;
+    border: 0.313em solid #1f0d27;
+    border-radius: 3.125em;
+    margin-top: 5em;
+    margin-left: 6.25em;
+}
+.texto{
+    padding-right: 12.5em;
+    margin-top: 5em;
+    margin-left: 6.25em;
+}
